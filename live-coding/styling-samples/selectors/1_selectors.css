@@ -1,0 +1,52 @@
+/* Bilden 1_selectors.png är ett förslag på hur det kan se ut när du är klar */
+/* 
+Utan att ändra i html-koden gör följande 
+    1. Ge det första header elementet
+        a) background-color: rgb(10, 40, 150)
+        b) color: rgb(255, 255, 255)
+    
+    2. ge nav elementet
+        a) background-color: rgb(160, 160, 200)
+
+    3. ge ul elementet i nav
+        a) list-style-type: none
+
+    4. Ge alla li element i nav css egenskapen 
+        a) float: left
+        b) padding: 10px
+        c) margin: 5px
+
+    Fler saker att klura på:
+        a) Ge footern en kul bakgrundsfärg
+        b) Hur kan du style:a om listorna?
+        c) Hur ändrar du text-färgen på länkarna?   
+*/
+
+body {
+    font-size: 10px;
+}
+
+header {
+    font-size: 1.6rem;
+}
+
+.page-header {
+    background-color: rgb(10, 40, 150);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: rgb(160, 160, 200);
+}
+
+/* alla <ul> inne i en <nav> */
+nav ul {
+    list-style-type: none;
+}
+
+/* alla <li> inne i en <ul> inne i en <nav> */
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}

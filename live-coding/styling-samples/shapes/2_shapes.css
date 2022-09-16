@@ -1,0 +1,53 @@
+/*
+    Utseende hittar du i 2_shapes.png
+    Du ska inte behöva ändra något i HTML filen
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.container span {
+    padding: 2em;
+    margin: .3em;
+    display: inline-block;
+}
+
+.oval {
+    border-radius: 50%;
+    min-width: 50px;
+}
+
+.rectangle {
+    min-width: 50px;
+}
+
+.half-circle {
+    /* padding: 3.8rem 1.3rem 0 1.3rem; */
+    /* padding: 4em 1em 0 1em;
+    border-radius: 10em 10em 0 0; */
+    
+    border-start-start-radius: 100px;
+    border-start-end-radius: 100px;
+}

@@ -1,0 +1,94 @@
+/*
+selector {
+  property_1: value;
+  property_2: value;
+}
+*/
+
+/* element/tag selector
+header {
+  background-color: hsl(360, 100%, 90%);
+}
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+/* class selector 
+  Identiferas med en punkt "." i början
+*/
+.page-header {
+  /*background-color: hsl(360, 100%, 90%);*/
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.dark-bg {
+  background-color: rgb(129, 10, 10);
+  color: #fff;
+}
+
+/* descendent selector */
+.page-header p {
+  color: #a6a6a6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; /* center */
+}
+
+.card {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+
+  display: inline-block;
+  width: 30vw; /* viewport width */ 
+  padding: 0.3em 2em 2em 2em; /* top right bottom left */
+  margin: 1em;
+  
+  background-color: #fff;
+
+  vertical-align: top;
+
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pizza_in_Harajuku.jpg/800px-Pizza_in_Harajuku.jpg?20220831134144);
+  background-size: cover;
+  /* padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em; */
+}
+
+.card-body {
+  height: 150px;
+}
+
+.card-submit {
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.front-bakery-image {
+  width: 20%;
+  float: right;
+  margin: .5em;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.container p {
+  width: 80%;
+}
