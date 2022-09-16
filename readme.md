@@ -10,3 +10,7 @@
 
 ### Alternativ övning (mer steg för steg)
 https://jmm.nu/ovningar-html-och-css/
+
+## Video om positionering
+https://www.youtube.com/watch?v=UO8ed-JB4So
+
